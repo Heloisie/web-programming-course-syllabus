@@ -1,0 +1,161 @@
+@import "../Styles/reset.css";
+@import "../Styles/variables.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body {
+    background-color: var(--clr-accent-100);
+    font-family: var(--ff-primary);
+
+}
+
+footer {
+    height: 15%;
+}
+
+img {
+    width: 30%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-line {
+    border-left: 6px solid var(--clr-neutral-900);
+    height: auto;
+    left: 50%;
+    margin-left: 20px;
+    top: 0;
+    width: auto;
+}
+
+.text {
+    width: 70%;
+}
+
+.background-accent-100 {
+    background-color: var(--clr-accent-100);
+}
+
+.background-accent-500 {
+    background-color: var(--clr-accent-500);
+}
+
+.background-accent-300 {
+    background-color: var(--clr-accent-300);
+}
+
+.margin {
+    margin-left: var(--size-400);
+}
+
+.margin-right {
+    margin-right: var(--size-800);
+}
+
+.margin-left {
+    margin-left: var(--size-800);
+
+}
+
+.padding {
+    padding: var(--size-400);
+}
+
+.heading-1 {
+    font-style: var(--fw-bolder);
+    font-weight: var(--fw-bolder);
+    font-size: var(--fs-700);
+}
+
+.heading-2 {
+    font-style: var(--fw-bolder);
+    font-weight: var(--fw-bolder);
+    font-size: var(--fs-900);
+
+}
+
+.heading-3 {
+    font-style: var(--fw-bolder);
+    font-weight: var(--fw-bolder);
+    font-size: var(--fs-600);
+}
+
+.circle {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: var(--clr-accent-100);
+    position: absolute;
+    left: -250px;
+    top: -290px;
+    z-index: 1;
+}
+
+.above-circle {
+    z-index: 2;
+}
+
+.relative {
+    position: relative;
+}
+
+.justify-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 60%;
+}
+
+.hover-effect:hover {
+    text-decoration: underline;
+}
+
+.button{
+    cursor: pointer;
+    background-color: var(--clr-neutral-900);
+    color: var(--clr-accent-100);
+    height: var(--size-600);
+    width: var(--size-900);
+    border-radius: var(--size-400);
+}
+
+.button:hover{
+ background-color: var(--clr-accent-500);
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    visibility: hidden;
+}
+
+.margin-10 {
+    margin: 0 var(--size-500) 0 var(--size-500);
+}
